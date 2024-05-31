@@ -65,7 +65,7 @@ def choice(names):
         print(ASCII_art)
         break;
 def main():
-    file_path = '/Users/kiran/Downloads/Agents - Sheet1.csv'
+    file_path = 'your_csv_file_path'
     names = read_data(file_path)
     make_choice = choice(names)
 
